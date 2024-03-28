@@ -34,59 +34,67 @@ Abaixo está a imagem do AFD de L = {w | w possui um número par de a e b}, vamo
 | *Imagem do canal do YouTube "Prof. José Rui", link do vídeo original:* [https://youtu.be/Ic1D1239DVw?si=WJePVaqxN5-oJrW5](https://youtu.be/Ic1D1239DVw?si=WJePVaqxN5-oJrW5) |
 
 
-1 - Verifica se a palavra é vazia, nesse caso, é falso
+1) Verifica se a palavra é vazia, nesse caso, é falso
 
 2)
   - Estado atual: q0
   - Símbolo: *a*
   - Estado de destino = (Estado atual + Símbolo) = q1
 
-3 - Estado atual: q1
-    Símbolo: *b*
-    Estado de destino = (Estado atual + Símbolo) = q3
+3) 
+  - Estado atual: q1
+  - Símbolo: *b*
+  - Estado de destino = (Estado atual + Símbolo) = q3
 
-4 - Estado atual: q3
-    Símbolo: *b*
-    Estado de destino = (Estado atual + Símbolo) = q1
+4) 
+  - Estado atual: q3
+  - Símbolo: *b*
+  - Estado de destino = (Estado atual + Símbolo) = q1
 
-5 - Estado atual: q1
-    Símbolo: *a*
-    Estado de destino = (Estado atual + Símbolo) = q0
+5)
+  - Estado atual: q1
+  - Símbolo: *a*
+  - Estado de destino = (Estado atual + Símbolo) = q0
 
-6 - Estado atual: q0
-    Símbolo: *a*
-    Estado de destino = (Estado atual + Símbolo) = q1
+6) 
+  - Estado atual: q0
+  - Símbolo: *a*
+  - Estado de destino = (Estado atual + Símbolo) = q1
 
-7 - Fim da leitura da cadeia
+7) Fim da leitura da cadeia
 
-8 - Estado atual "q1" não é um estado de aceitação, palavra é rejeitada
+8) Estado atual "q1" não é um estado de aceitação, palavra é rejeitada
 
-9 - Impressão na tela do "rejeita"
+9) Impressão na tela do "rejeita"
 
 
 Mais um exemplo, agora com a cadeia de entrada "*abab*":
 
-1 - Verifica se a palavra é vazia, nesse caso, é falso
+1) Verifica se a palavra é vazia, nesse caso, é falso
 
-2 - Estado atual: q0
-    Símbolo: *a*
-    Estado de destino = (Estado atual + Símbolo) = q1
+2) 
+  - Estado atual: q0
+  - Símbolo: *a*
+  - Estado de destino = (Estado atual + Símbolo) = q1
 
-3 - Estado atual: q1
-    Símbolo: *b*
-    Estado de destino = (Estado atual + Símbolo) = q3
+3)
+  - Estado atual: q1
+  - Símbolo: *b*
+  - Estado de destino = (Estado atual + Símbolo) = q3
 
-4 - Estado atual: q3
-    Símbolo: *a*
-    Estado de destino = (Estado atual + Símbolo) = q2
+4) 
+  - Estado atual: q3
+  - Símbolo: *a*
+  - Estado de destino = (Estado atual + Símbolo) = q2
 
-5 - Estado atual: q2
-    Símbolo: *b*
-    Estado de destino = (Estado atual + Símbolo) = q0
+5) 
+  - Estado atual: q2
+  - Símbolo: *b*
+  - Estado de destino = (Estado atual + Símbolo) = q0
 
-7 - Fim da leitura da cadeia
+7) Fim da leitura da cadeia
 
-8 - Estado atual "q0" é um estado de aceitação, palavra é aceita
+8) Estado atual "q0" é um estado de aceitação, palavra é aceita
 
-9 - Impressão na tela do "aceita"
+9) Impressão na tela do "aceita"
 
