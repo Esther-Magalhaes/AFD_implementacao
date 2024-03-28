@@ -42,9 +42,8 @@ Abaixo está a imagem do AFD de L = {w | w possui um número par de a e b}, vamo
 
 1 - Verifica se a palavra é vazia, nesse caso, é falso
 
-2 - Estado atual: q0
-
-    Símbolo: *a*
+2 - Estado atual: q0<br>
+    Símbolo: *a*<br>
     Estado de destino = (Estado atual + Símbolo) = q1
 
 3 - Estado atual: q1
