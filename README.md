@@ -10,12 +10,12 @@ Neste trabalho, foi implementado um autômato finito determinístico (AFD) na li
 
 Digamos que o autômato receba a seguinte entrada para a liguagem L = {w | w possui um número par de a e b}:
 
-q0 q1 q2 q3
+`q0 q1 q2 q3
 a b
 q0,a,q1 q0,b,q2 q1,a,q0 q1,b,q3 q2,b,q0 q2,a,q3 q3,b,q1 q3,a,q2
 q0
 q0
-abbaa
+abbaa`
 
 
 * A linha 1 representa todos os estados do autômato.
@@ -35,7 +35,8 @@ Então, quando o último símbolo da cadeia de entrada for lido, se o estado atu
 
 Abaixo está a imagem do AFD de L = {w | w possui um número par de a e b}, vamos fazer um exemplo de processamento dessa cadeia "*abbaa*":
 
-![Imagem do canal do YouTube "Prof. José Rui", link do vídeo original: https://youtu.be/Ic1D1239DVw?si=WJePVaqxN5-oJrW5](src/automato.jpg)
+![Autômato finito determinístico da liguagem L](src/automato.jpg)
+Imagem do canal do YouTube "Prof. José Rui", link do vídeo original: [https://youtu.be/Ic1D1239DVw?si=WJePVaqxN5-oJrW5](https://youtu.be/Ic1D1239DVw?si=WJePVaqxN5-oJrW5)
 
 1 - Verifica se a palavra é vazia, nesse caso, é falso
 
