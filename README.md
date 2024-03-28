@@ -6,7 +6,7 @@ Neste trabalho, foi implementado um autômato finito determinístico (AFD) na li
 
 - `src`: essa pasta contém os códigos-fonte do AFD
 
-## Exemplo de funcionamento
+## Exemplo de funcionamento ⚙️
 
 Digamos que o autômato receba a seguinte entrada para a liguagem L = {w | w possui um número par de a e b}:
 
