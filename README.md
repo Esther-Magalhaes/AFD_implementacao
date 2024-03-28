@@ -8,7 +8,7 @@ Neste trabalho, foi implementado um autômato finito determinístico (AFD) na li
 
 ## Exemplo de funcionamento ⚙️
 
-Digamos que o autômato receba a seguinte entrada para a liguagem L = {w | w possui um número par de a e b}:
+Digamos que o autômato receba a seguinte entrada para a liguagem L = {w | w possui um número par de 'a' e 'b'}:
 
  ![Entrada do usuário](src/entrada.jpg)
 
@@ -27,7 +27,7 @@ Caso contrário, para cada símbolo da cadeia de entrada, em uma estrutura de da
 Então, quando o último símbolo da cadeia de entrada for lido, se o estado atual for um estado de aceitação, a palavra é aceita, do contrário, é rejeitada.
 
 
-Abaixo está a imagem do AFD de L = {w | w possui um número par de a e b}, vamos fazer um exemplo de processamento dessa cadeia "*abbaa*":
+Abaixo está a imagem do AFD de L = {w | w possui um número par de 'a' e 'b'}, vamos fazer um exemplo de processamento dessa cadeia "*abbaa*":
 
 | ![Autômato finito determinístico da linguagem L](src/automato.jpg) |
 |:--:|
